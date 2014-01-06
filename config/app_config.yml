@@ -1,0 +1,13 @@
+defaults: &defaults
+  twitter:
+    clientId: "G2tL8P6hVabqwi02vjzOWw"
+    clientSecret: "1kZsti7sIwB7KJeZvo1g4of1VDfCJXKlalniZUGNU8k"
+
+development:
+  <<: *defaults
+
+test:
+  <<: *defaults
+
+production:
+  <<: *defaults

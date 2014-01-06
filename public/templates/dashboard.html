@@ -1,0 +1,11 @@
+<div class="panel-body">
+	<div class="list-group" ng-repeat="article in articles | orderBy:publishedDate:false">
+
+  	<a href="{{ article.link }}"
+	   	class="list-group-item active">
+    		<h4 class="list-group-item-heading">{{ article.title }}</h4>
+    		<p class="list-group-item-text">{{ article.publishedDate | date:'M/d/yy h:mm:ss a' }}</p>
+  	</a>
+  </div>
+</div>
+		
